@@ -1,0 +1,768 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'i' ]
+2 info using npm@4.0.3
+3 info using node@v6.9.2
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData @angular/common
+20 silly mapToRegistry name @angular/common
+21 silly mapToRegistry scope (from package name) @angular
+22 verbose mapToRegistry no registry URL found in name for scope @angular
+23 silly mapToRegistry using default registry
+24 silly mapToRegistry registry https://registry.npmjs.org/
+25 silly mapToRegistry data Result {
+25 silly mapToRegistry   raw: '@angular/common',
+25 silly mapToRegistry   scope: '@angular',
+25 silly mapToRegistry   escapedName: '@angular%2fcommon',
+25 silly mapToRegistry   name: '@angular/common',
+25 silly mapToRegistry   rawSpec: '',
+25 silly mapToRegistry   spec: 'latest',
+25 silly mapToRegistry   type: 'tag' }
+26 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fcommon
+27 silly fetchNamedPackageData @angular/compiler
+28 silly mapToRegistry name @angular/compiler
+29 silly mapToRegistry scope (from package name) @angular
+30 verbose mapToRegistry no registry URL found in name for scope @angular
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry https://registry.npmjs.org/
+33 silly mapToRegistry data Result {
+33 silly mapToRegistry   raw: '@angular/compiler',
+33 silly mapToRegistry   scope: '@angular',
+33 silly mapToRegistry   escapedName: '@angular%2fcompiler',
+33 silly mapToRegistry   name: '@angular/compiler',
+33 silly mapToRegistry   rawSpec: '',
+33 silly mapToRegistry   spec: 'latest',
+33 silly mapToRegistry   type: 'tag' }
+34 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fcompiler
+35 silly fetchNamedPackageData @angular/core
+36 silly mapToRegistry name @angular/core
+37 silly mapToRegistry scope (from package name) @angular
+38 verbose mapToRegistry no registry URL found in name for scope @angular
+39 silly mapToRegistry using default registry
+40 silly mapToRegistry registry https://registry.npmjs.org/
+41 silly mapToRegistry data Result {
+41 silly mapToRegistry   raw: '@angular/core',
+41 silly mapToRegistry   scope: '@angular',
+41 silly mapToRegistry   escapedName: '@angular%2fcore',
+41 silly mapToRegistry   name: '@angular/core',
+41 silly mapToRegistry   rawSpec: '',
+41 silly mapToRegistry   spec: 'latest',
+41 silly mapToRegistry   type: 'tag' }
+42 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fcore
+43 silly fetchNamedPackageData @angular/platform-browser
+44 silly mapToRegistry name @angular/platform-browser
+45 silly mapToRegistry scope (from package name) @angular
+46 verbose mapToRegistry no registry URL found in name for scope @angular
+47 silly mapToRegistry using default registry
+48 silly mapToRegistry registry https://registry.npmjs.org/
+49 silly mapToRegistry data Result {
+49 silly mapToRegistry   raw: '@angular/platform-browser',
+49 silly mapToRegistry   scope: '@angular',
+49 silly mapToRegistry   escapedName: '@angular%2fplatform-browser',
+49 silly mapToRegistry   name: '@angular/platform-browser',
+49 silly mapToRegistry   rawSpec: '',
+49 silly mapToRegistry   spec: 'latest',
+49 silly mapToRegistry   type: 'tag' }
+50 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fplatform-browser
+51 silly fetchNamedPackageData @angular/platform-browser-dynamic
+52 silly mapToRegistry name @angular/platform-browser-dynamic
+53 silly mapToRegistry scope (from package name) @angular
+54 verbose mapToRegistry no registry URL found in name for scope @angular
+55 silly mapToRegistry using default registry
+56 silly mapToRegistry registry https://registry.npmjs.org/
+57 silly mapToRegistry data Result {
+57 silly mapToRegistry   raw: '@angular/platform-browser-dynamic',
+57 silly mapToRegistry   scope: '@angular',
+57 silly mapToRegistry   escapedName: '@angular%2fplatform-browser-dynamic',
+57 silly mapToRegistry   name: '@angular/platform-browser-dynamic',
+57 silly mapToRegistry   rawSpec: '',
+57 silly mapToRegistry   spec: 'latest',
+57 silly mapToRegistry   type: 'tag' }
+58 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fplatform-browser-dynamic
+59 silly fetchNamedPackageData @angular/http
+60 silly mapToRegistry name @angular/http
+61 silly mapToRegistry scope (from package name) @angular
+62 verbose mapToRegistry no registry URL found in name for scope @angular
+63 silly mapToRegistry using default registry
+64 silly mapToRegistry registry https://registry.npmjs.org/
+65 silly mapToRegistry data Result {
+65 silly mapToRegistry   raw: '@angular/http',
+65 silly mapToRegistry   scope: '@angular',
+65 silly mapToRegistry   escapedName: '@angular%2fhttp',
+65 silly mapToRegistry   name: '@angular/http',
+65 silly mapToRegistry   rawSpec: '',
+65 silly mapToRegistry   spec: 'latest',
+65 silly mapToRegistry   type: 'tag' }
+66 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fhttp
+67 silly fetchNamedPackageData ionic-angular
+68 silly mapToRegistry name ionic-angular
+69 silly mapToRegistry using default registry
+70 silly mapToRegistry registry https://registry.npmjs.org/
+71 silly mapToRegistry data Result {
+71 silly mapToRegistry   raw: 'ionic-angular',
+71 silly mapToRegistry   scope: null,
+71 silly mapToRegistry   escapedName: 'ionic-angular',
+71 silly mapToRegistry   name: 'ionic-angular',
+71 silly mapToRegistry   rawSpec: '',
+71 silly mapToRegistry   spec: 'latest',
+71 silly mapToRegistry   type: 'tag' }
+72 silly mapToRegistry uri https://registry.npmjs.org/ionic-angular
+73 verbose request uri https://registry.npmjs.org/@angular%2fcommon
+74 verbose request no auth needed
+75 info attempt registry request try #1 at 10:11:53
+76 verbose request id f7a5c20b61c62d99
+77 verbose etag W/"58b7c7c2-10a55"
+78 verbose lastModified Thu, 02 Mar 2017 07:20:34 GMT
+79 http request GET https://registry.npmjs.org/@angular%2fcommon
+80 verbose request uri https://registry.npmjs.org/@angular%2fcore
+81 verbose request no auth needed
+82 info attempt registry request try #1 at 10:11:53
+83 verbose etag W/"58bae2c0-1071f"
+84 verbose lastModified Sat, 04 Mar 2017 15:52:32 GMT
+85 http request GET https://registry.npmjs.org/@angular%2fcore
+86 verbose request uri https://registry.npmjs.org/@angular%2fplatform-browser
+87 verbose request no auth needed
+88 info attempt registry request try #1 at 10:11:53
+89 verbose etag W/"58b7c7d4-12602"
+90 verbose lastModified Thu, 02 Mar 2017 07:20:52 GMT
+91 http request GET https://registry.npmjs.org/@angular%2fplatform-browser
+92 verbose request uri https://registry.npmjs.org/@angular%2fplatform-browser-dynamic
+93 verbose request no auth needed
+94 info attempt registry request try #1 at 10:11:53
+95 verbose etag W/"58b7c7d7-14663"
+96 verbose lastModified Thu, 02 Mar 2017 07:20:55 GMT
+97 http request GET https://registry.npmjs.org/@angular%2fplatform-browser-dynamic
+98 verbose request uri https://registry.npmjs.org/ionic-angular
+99 verbose request no auth needed
+100 info attempt registry request try #1 at 10:11:53
+101 verbose etag W/"58b9d12d-6d60a"
+102 verbose lastModified Fri, 03 Mar 2017 20:25:17 GMT
+103 http request GET https://registry.npmjs.org/ionic-angular
+104 verbose request uri https://registry.npmjs.org/@angular%2fhttp
+105 verbose request no auth needed
+106 info attempt registry request try #1 at 10:11:53
+107 verbose etag W/"58b7c7cf-10ef1"
+108 verbose lastModified Thu, 02 Mar 2017 07:20:47 GMT
+109 http request GET https://registry.npmjs.org/@angular%2fhttp
+110 verbose request uri https://registry.npmjs.org/@angular%2fcompiler
+111 verbose request no auth needed
+112 info attempt registry request try #1 at 10:11:53
+113 verbose etag W/"58b7c7c7-10acb"
+114 verbose lastModified Thu, 02 Mar 2017 07:20:39 GMT
+115 http request GET https://registry.npmjs.org/@angular%2fcompiler
+116 http 200 https://registry.npmjs.org/ionic-angular
+117 verbose headers { server: 'nginx/1.10.1',
+117 verbose headers   'content-type': 'application/json',
+117 verbose headers   'last-modified': 'Mon, 06 Mar 2017 15:38:23 GMT',
+117 verbose headers   etag: 'W/"58bd826f-6dd79"',
+117 verbose headers   'content-encoding': 'gzip',
+117 verbose headers   'cache-control': 'max-age=300',
+117 verbose headers   'content-length': '28075',
+117 verbose headers   'accept-ranges': 'bytes',
+117 verbose headers   date: 'Tue, 07 Mar 2017 02:12:24 GMT',
+117 verbose headers   via: '1.1 varnish',
+117 verbose headers   age: '0',
+117 verbose headers   connection: 'close',
+117 verbose headers   'x-served-by': 'cache-hkg6822-HKG',
+117 verbose headers   'x-cache': 'HIT',
+117 verbose headers   'x-cache-hits': '1',
+117 verbose headers   'x-timer': 'S1488852744.651203,VS0,VE187',
+117 verbose headers   vary: 'Accept-Encoding' }
+118 silly get cb [ 200,
+118 silly get   { server: 'nginx/1.10.1',
+118 silly get     'content-type': 'application/json',
+118 silly get     'last-modified': 'Mon, 06 Mar 2017 15:38:23 GMT',
+118 silly get     etag: 'W/"58bd826f-6dd79"',
+118 silly get     'content-encoding': 'gzip',
+118 silly get     'cache-control': 'max-age=300',
+118 silly get     'content-length': '28075',
+118 silly get     'accept-ranges': 'bytes',
+118 silly get     date: 'Tue, 07 Mar 2017 02:12:24 GMT',
+118 silly get     via: '1.1 varnish',
+118 silly get     age: '0',
+118 silly get     connection: 'close',
+118 silly get     'x-served-by': 'cache-hkg6822-HKG',
+118 silly get     'x-cache': 'HIT',
+118 silly get     'x-cache-hits': '1',
+118 silly get     'x-timer': 'S1488852744.651203,VS0,VE187',
+118 silly get     vary: 'Accept-Encoding' } ]
+119 verbose get saving ionic-angular to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\ionic-angular\.cache.json
+120 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+121 silly fetchPackageMetaData Error: No compatible version found: ionic-angular@2.2.0
+121 silly fetchPackageMetaData Valid install targets:
+121 silly fetchPackageMetaData 2.1.0, 2.1.0-201703061537, 2.1.0-201703032024, 2.1.0-201702281739, 2.1.0-201702272319, 2.0.1, 2.0.1-201702231423, 2.0.1-201702221915, 2.0.1-201702212251, 2.0.1-201702212216, 2.0.1-201702161925, 2.0.1-201702161529, 2.0.1-201702152027, 2.0.1-201702151933, 2.0.1-201702142221, 2.0.1-201702132005, 2.0.1-201702131650, 2.0.0, 2.0.0-rc.5-201701241523, 2.0.0-rc.5-201701232249, 2.0.0-rc.5-201701231939, 2.0.0-rc.5-201701201813, 2.0.0-rc.5-201701201755, 2.0.0-rc.5-201701192302, 2.0.0-rc.5-201701182146, 2.0.0-rc.5-201701181544, 2.0.0-rc.5-201701172212, 2.0.0-rc.5-201701171605, 2.0.0-rc.5-201701131937, 2.0.0-rc.5-201701121905, 2.0.0-rc.5-201701121731, 2.0.0-rc.5-201701112208, 2.0.0-rc.4-201701101946, 2.0.0-rc.4-201701101706, 2.0.0-rc.4-201701092051, 2.0.0-rc.4-201701091604, 2.0.0-rc.4-201701091504, 2.0.0-rc.4-201701062325, 2.0.0-rc.4-201701062308, 2.0.0-rc.4-201701052314, 2.0.0-rc.4-201701051814, 2.0.0-rc.4-201701042202, 2.0.0-rc.4-201701041745, 2.0.0-rc.4-201701041523, 2.0.0-rc.4-201701032156, 2.0.0-rc.4-201612220408, 2.0.0-rc.4-201612211600, 2.0.0-rc.4-201612211452, 2.0.0-rc.4-201612210347, 2.0.0-rc.4-201612201852, 2.0.0-rc.4-201612192257, 2.0.0-rc.4-201612191922, 2.0.0-rc.4-201612161746, 2.0.0-rc.3-201612142137, 2.0.0-rc.3-201612142043, 2.0.0-rc.3-201612142021, 2.0.0-rc.3-201612122136, 2.0.0-rc.3-201612121605, 2.0.0-rc.3-201612100458, 2.0.0-rc.3-201612091647, 2.0.0-rc.3-201612091455, 2.0.0-rc.3-201612090356, 2.0.0-rc.3-201612081841, 2.0.0-rc.3-201612081738, 2.0.0-rc.3-201612081620, 2.0.0-rc.3-201612080433, 2.0.0-rc.3-201612072051, 2.0.0-rc.3-201612071734, 2.0.0-rc.3-201612062256, 2.0.0-rc.3-201612062143, 2.0.0-rc.3-201612062115, 2.0.0-rc.3-201612061717, 2.0.0-rc.3-201612061524, 2.0.0-rc.3-201612021933, 2.0.0-rc.3-201611302233, 2.0.0-rc.3-201611301645, 2.0.0-rc.3-201611282011, 2.0.0-rc.3-201611281530, 2.0.0-rc.3-201611261840, 2.0.0-rc.3-201611211919, 2.0.0-rc.3-201611211457, 2.0.0-rc.3-201611201650, 2.0.0-rc.3-201611181540, 2.0.0-rc.2-201611171718, 2.0.0-rc.2-201611162054, 2.0.0-rc.2-201611161915, 2.0.0-rc.2-201611110153, 2.0.0-rc.2-201611110146, 2.0.0-rc.2-201611102333, 2.0.0-rc.2-201611100035, 2.0.0-rc.2-201611041759, 2.0.0-rc.1-201611031834, 2.0.0-rc.1-201611021712, 2.0.0-rc.1-201610241941, 2.0.0-rc.1-201610191717, 2.0.0-rc.1-201610182222, 2.0.0-rc.0-201610131811, 2.0.0-rc.0-201610131632, 2.0.0-rc.0-201610122136, 2.0.0-rc.0-201610121811, 2.0.0-rc.0-201610121605, 2.0.0-rc.0-201610101823, 2.0.0-rc.0-201610041708, 2.0.0-rc.0-201610041700, 2.0.0-rc.6, 2.0.0-rc.5, 2.0.0-rc.4, 2.0.0-rc.3, 2.0.0-rc.2, 2.0.0-rc.1, 2.0.0-rc.0, 2.0.0-beta.9-201606271842, 2.0.0-beta.9-201606271653, 2.0.0-beta.9-201606241930, 2.0.0-beta.9-201606241800, 2.0.0-beta.9-201606221959, 2.0.0-beta.9-201606221703, 2.0.0-beta.9-201606212210, 2.0.0-beta.9-201606212121, 2.0.0-beta.8-201606151824, 2.0.0-beta.8-201606151713, 2.0.0-beta.8-201606151510, 2.0.0-beta.8-201606151439, 2.0.0-beta.8-201606142057, 2.0.0-beta.8-201606141514, 2.0.0-beta.8-201606131945, 2.0.0-beta.8-201606092350, 2.0.0-beta.8-201606092335, 2.0.0-beta.8-201606091959, 2.0.0-beta.8-201606091806, 2.0.0-beta.7-201606031813, 2.0.0-beta.7-201606021731, 2.0.0-beta.7-201606012128, 2.0.0-beta.7-201606011445, 2.0.0-beta.7-201605271904, 2.0.0-beta.7-201605271541, 2.0.0-beta.7-201605261743, 2.0.0-beta.7-201605211713, 2.0.0-beta.7-201605202104, 2.0.0-beta.7-201605202030, 2.0.0-beta.6-201605181432, 2.0.0-beta.6-201605132240, 2.0.0-beta.6-201605131639, 2.0.0-beta.6-201604261740, 2.0.0-beta.6-201604251507, 2.0.0-beta.6-201604212137, 2.0.0-beta.5-201604211454, 2.0.0-beta.5-201604211440, 2.0.0-beta.4-f23043ed, 2.0.0-beta.4-ed10e724, 2.0.0-beta.4-e8ee7380, 2.0.0-beta.4-7b783b3c, 2.0.0-beta.4-201604201930, 2.0.0-beta.4-201604192155, 2.0.0-beta.4-201604170622, 2.0.0-beta.11-201609271925, 2.0.0-beta.11-201609271911, 2.0.0-beta.11-201609271400, 2.0.0-beta.11-201609270622, 2.0.0-beta.11-201609270610, 2.0.0-beta.11-201609270601, 2.0.0-beta.11-201609270558, 2.0.0-beta.11-201609270522, 2.0.0-beta.11-201609270449, 2.0.0-beta.11-201609270443, 2.0.0-beta.11-201609270424, 2.0.0-beta.11-201609270406, 2.0.0-beta.11-201609262033, 2.0.0-beta.11-201609262014, 2.0.0-beta.11-201609260323, 2.0.0-beta.11-201609251625, 2.0.0-beta.11-201609230142, 2.0.0-beta.11-201609221912, 2.0.0-beta.11-201609211823, 2.0.0-beta.11-201609211450, 2.0.0-beta.11-201609210214, 2.0.0-beta.11-201609191348, 2.0.0-beta.11-201609161747, 2.0.0-beta.11-201609161559, 2.0.0-beta.11-201609160622, 2.0.0-beta.11-201609142013, 2.0.0-beta.11-201609132240, 2.0.0-beta.11-201609132103, 2.0.0-beta.11-201609071745, 2.0.0-beta.11-201609070233, 2.0.0-beta.11-201609061648, 2.0.0-beta.11-201609061629, 2.0.0-beta.11-201609060516, 2.0.0-beta.11-201609060443, 2.0.0-beta.11-201609060228, 2.0.0-beta.11-201609040322, 2.0.0-beta.11-201609030451, 2.0.0-beta.11-201609030447, 2.0.0-beta.11-201609030407, 2.0.0-beta.11-201609030353, 2.0.0-beta.11-201609030328, 2.0.0-beta.11-201609030252, 2.0.0-beta.11-201609022148, 2.0.0-beta.11-201609022141, 2.0.0-beta.11-201609022136, 2.0.0-beta.11-201609022128, 2.0.0-beta.11-201609011951, 2.0.0-beta.11-201609011909, 2.0.0-beta.11-201609011853, 2.0.0-beta.11-201609011838, 2.0.0-beta.11-201608232236, 2.0.0-beta.11-201608162233, 2.0.0-beta.11-201608092109, 2.0.0-beta.10-201608051404, 2.0.0-beta.10-201608041720, 2.0.0-beta.10-201608041410, 2.0.0-beta.10-201608012029, 2.0.0-beta.10-201607291454, 2.0.0-beta.10-201607151701, 2.0.0-beta.10-201607132035, 2.0.0-beta.10-201607122145, 2.0.0-beta.10-201607081753, 2.0.0-beta.10-201607071722, 2.0.0-beta.10-201606302045, 2.0.0-beta.10-201606292131, 2.0.0-beta.11, 2.0.0-beta.10, 2.0.0-beta.9, 2.0.0-beta.8, 2.0.0-beta.7, 2.0.0-beta.6, 2.0.0-beta.5, 2.0.0-beta.4, 2.0.0-beta.3, 2.0.0-beta.2, 2.0.0-beta.1, 2.0.0-beta.0, 2.0.0-201702062042, 2.0.0-201702031703, 2.0.0-201702022113, 2.0.0-201701301839, 2.0.0-201701301819, 2.0.0-201701301730, 1.3.2, 1.3.1, 1.3.1-201605270318, 1.3.1-201605121907, 1.3.0-201604252007
+121 silly fetchPackageMetaData
+121 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\lib\fetch-package-metadata.js:178:16)
+121 silly fetchPackageMetaData     at C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\node_modules\iferr\index.js:13:50
+121 silly fetchPackageMetaData     at C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\lib\utils\pulse-till-done.js:20:8
+121 silly fetchPackageMetaData     at saved (C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\lib\cache\caching-client.js:174:7)
+121 silly fetchPackageMetaData     at C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\node_modules\graceful-fs\polyfills.js:253:18
+121 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:123:15)
+121 silly fetchPackageMetaData  error for ionic-angular@2.2.0 { Error: No compatible version found: ionic-angular@2.2.0
+121 silly fetchPackageMetaData Valid install targets:
+121 silly fetchPackageMetaData 2.1.0, 2.1.0-201703061537, 2.1.0-201703032024, 2.1.0-201702281739, 2.1.0-201702272319, 2.0.1, 2.0.1-201702231423, 2.0.1-201702221915, 2.0.1-201702212251, 2.0.1-201702212216, 2.0.1-201702161925, 2.0.1-201702161529, 2.0.1-201702152027, 2.0.1-201702151933, 2.0.1-201702142221, 2.0.1-201702132005, 2.0.1-201702131650, 2.0.0, 2.0.0-rc.5-201701241523, 2.0.0-rc.5-201701232249, 2.0.0-rc.5-201701231939, 2.0.0-rc.5-201701201813, 2.0.0-rc.5-201701201755, 2.0.0-rc.5-201701192302, 2.0.0-rc.5-201701182146, 2.0.0-rc.5-201701181544, 2.0.0-rc.5-201701172212, 2.0.0-rc.5-201701171605, 2.0.0-rc.5-201701131937, 2.0.0-rc.5-201701121905, 2.0.0-rc.5-201701121731, 2.0.0-rc.5-201701112208, 2.0.0-rc.4-201701101946, 2.0.0-rc.4-201701101706, 2.0.0-rc.4-201701092051, 2.0.0-rc.4-201701091604, 2.0.0-rc.4-201701091504, 2.0.0-rc.4-201701062325, 2.0.0-rc.4-201701062308, 2.0.0-rc.4-201701052314, 2.0.0-rc.4-201701051814, 2.0.0-rc.4-201701042202, 2.0.0-rc.4-201701041745, 2.0.0-rc.4-201701041523, 2.0.0-rc.4-201701032156, 2.0.0-rc.4-201612220408, 2.0.0-rc.4-201612211600, 2.0.0-rc.4-201612211452, 2.0.0-rc.4-201612210347, 2.0.0-rc.4-201612201852, 2.0.0-rc.4-201612192257, 2.0.0-rc.4-201612191922, 2.0.0-rc.4-201612161746, 2.0.0-rc.3-201612142137, 2.0.0-rc.3-201612142043, 2.0.0-rc.3-201612142021, 2.0.0-rc.3-201612122136, 2.0.0-rc.3-201612121605, 2.0.0-rc.3-201612100458, 2.0.0-rc.3-201612091647, 2.0.0-rc.3-201612091455, 2.0.0-rc.3-201612090356, 2.0.0-rc.3-201612081841, 2.0.0-rc.3-201612081738, 2.0.0-rc.3-201612081620, 2.0.0-rc.3-201612080433, 2.0.0-rc.3-201612072051, 2.0.0-rc.3-201612071734, 2.0.0-rc.3-201612062256, 2.0.0-rc.3-201612062143, 2.0.0-rc.3-201612062115, 2.0.0-rc.3-201612061717, 2.0.0-rc.3-201612061524, 2.0.0-rc.3-201612021933, 2.0.0-rc.3-201611302233, 2.0.0-rc.3-201611301645, 2.0.0-rc.3-201611282011, 2.0.0-rc.3-201611281530, 2.0.0-rc.3-201611261840, 2.0.0-rc.3-201611211919, 2.0.0-rc.3-201611211457, 2.0.0-rc.3-201611201650, 2.0.0-rc.3-201611181540, 2.0.0-rc.2-201611171718, 2.0.0-rc.2-201611162054, 2.0.0-rc.2-201611161915, 2.0.0-rc.2-201611110153, 2.0.0-rc.2-201611110146, 2.0.0-rc.2-201611102333, 2.0.0-rc.2-201611100035, 2.0.0-rc.2-201611041759, 2.0.0-rc.1-201611031834, 2.0.0-rc.1-201611021712, 2.0.0-rc.1-201610241941, 2.0.0-rc.1-201610191717, 2.0.0-rc.1-201610182222, 2.0.0-rc.0-201610131811, 2.0.0-rc.0-201610131632, 2.0.0-rc.0-201610122136, 2.0.0-rc.0-201610121811, 2.0.0-rc.0-201610121605, 2.0.0-rc.0-201610101823, 2.0.0-rc.0-201610041708, 2.0.0-rc.0-201610041700, 2.0.0-rc.6, 2.0.0-rc.5, 2.0.0-rc.4, 2.0.0-rc.3, 2.0.0-rc.2, 2.0.0-rc.1, 2.0.0-rc.0, 2.0.0-beta.9-201606271842, 2.0.0-beta.9-201606271653, 2.0.0-beta.9-201606241930, 2.0.0-beta.9-201606241800, 2.0.0-beta.9-201606221959, 2.0.0-beta.9-201606221703, 2.0.0-beta.9-201606212210, 2.0.0-beta.9-201606212121, 2.0.0-beta.8-201606151824, 2.0.0-beta.8-201606151713, 2.0.0-beta.8-201606151510, 2.0.0-beta.8-201606151439, 2.0.0-beta.8-201606142057, 2.0.0-beta.8-201606141514, 2.0.0-beta.8-201606131945, 2.0.0-beta.8-201606092350, 2.0.0-beta.8-201606092335, 2.0.0-beta.8-201606091959, 2.0.0-beta.8-201606091806, 2.0.0-beta.7-201606031813, 2.0.0-beta.7-201606021731, 2.0.0-beta.7-201606012128, 2.0.0-beta.7-201606011445, 2.0.0-beta.7-201605271904, 2.0.0-beta.7-201605271541, 2.0.0-beta.7-201605261743, 2.0.0-beta.7-201605211713, 2.0.0-beta.7-201605202104, 2.0.0-beta.7-201605202030, 2.0.0-beta.6-201605181432, 2.0.0-beta.6-201605132240, 2.0.0-beta.6-201605131639, 2.0.0-beta.6-201604261740, 2.0.0-beta.6-201604251507, 2.0.0-beta.6-201604212137, 2.0.0-beta.5-201604211454, 2.0.0-beta.5-201604211440, 2.0.0-beta.4-f23043ed, 2.0.0-beta.4-ed10e724, 2.0.0-beta.4-e8ee7380, 2.0.0-beta.4-7b783b3c, 2.0.0-beta.4-201604201930, 2.0.0-beta.4-201604192155, 2.0.0-beta.4-201604170622, 2.0.0-beta.11-201609271925, 2.0.0-beta.11-201609271911, 2.0.0-beta.11-201609271400, 2.0.0-beta.11-201609270622, 2.0.0-beta.11-201609270610, 2.0.0-beta.11-201609270601, 2.0.0-beta.11-201609270558, 2.0.0-beta.11-201609270522, 2.0.0-beta.11-201609270449, 2.0.0-beta.11-201609270443, 2.0.0-beta.11-201609270424, 2.0.0-beta.11-201609270406, 2.0.0-beta.11-201609262033, 2.0.0-beta.11-201609262014, 2.0.0-beta.11-201609260323, 2.0.0-beta.11-201609251625, 2.0.0-beta.11-201609230142, 2.0.0-beta.11-201609221912, 2.0.0-beta.11-201609211823, 2.0.0-beta.11-201609211450, 2.0.0-beta.11-201609210214, 2.0.0-beta.11-201609191348, 2.0.0-beta.11-201609161747, 2.0.0-beta.11-201609161559, 2.0.0-beta.11-201609160622, 2.0.0-beta.11-201609142013, 2.0.0-beta.11-201609132240, 2.0.0-beta.11-201609132103, 2.0.0-beta.11-201609071745, 2.0.0-beta.11-201609070233, 2.0.0-beta.11-201609061648, 2.0.0-beta.11-201609061629, 2.0.0-beta.11-201609060516, 2.0.0-beta.11-201609060443, 2.0.0-beta.11-201609060228, 2.0.0-beta.11-201609040322, 2.0.0-beta.11-201609030451, 2.0.0-beta.11-201609030447, 2.0.0-beta.11-201609030407, 2.0.0-beta.11-201609030353, 2.0.0-beta.11-201609030328, 2.0.0-beta.11-201609030252, 2.0.0-beta.11-201609022148, 2.0.0-beta.11-201609022141, 2.0.0-beta.11-201609022136, 2.0.0-beta.11-201609022128, 2.0.0-beta.11-201609011951, 2.0.0-beta.11-201609011909, 2.0.0-beta.11-201609011853, 2.0.0-beta.11-201609011838, 2.0.0-beta.11-201608232236, 2.0.0-beta.11-201608162233, 2.0.0-beta.11-201608092109, 2.0.0-beta.10-201608051404, 2.0.0-beta.10-201608041720, 2.0.0-beta.10-201608041410, 2.0.0-beta.10-201608012029, 2.0.0-beta.10-201607291454, 2.0.0-beta.10-201607151701, 2.0.0-beta.10-201607132035, 2.0.0-beta.10-201607122145, 2.0.0-beta.10-201607081753, 2.0.0-beta.10-201607071722, 2.0.0-beta.10-201606302045, 2.0.0-beta.10-201606292131, 2.0.0-beta.11, 2.0.0-beta.10, 2.0.0-beta.9, 2.0.0-beta.8, 2.0.0-beta.7, 2.0.0-beta.6, 2.0.0-beta.5, 2.0.0-beta.4, 2.0.0-beta.3, 2.0.0-beta.2, 2.0.0-beta.1, 2.0.0-beta.0, 2.0.0-201702062042, 2.0.0-201702031703, 2.0.0-201702022113, 2.0.0-201701301839, 2.0.0-201701301819, 2.0.0-201701301730, 1.3.2, 1.3.1, 1.3.1-201605270318, 1.3.1-201605121907, 1.3.0-201604252007
+121 silly fetchPackageMetaData
+121 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\lib\fetch-package-metadata.js:178:16)
+121 silly fetchPackageMetaData     at C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\node_modules\iferr\index.js:13:50
+121 silly fetchPackageMetaData     at C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\lib\utils\pulse-till-done.js:20:8
+121 silly fetchPackageMetaData     at saved (C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\lib\cache\caching-client.js:174:7)
+121 silly fetchPackageMetaData     at C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\node_modules\graceful-fs\polyfills.js:253:18
+121 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:123:15) code: 'ETARGET' }
+122 http 304 https://registry.npmjs.org/@angular%2fplatform-browser
+123 verbose headers { server: 'nginx/1.10.1',
+123 verbose headers   'last-modified': 'Thu, 02 Mar 2017 07:20:52 GMT',
+123 verbose headers   etag: '"58b7c7d4-12602"',
+123 verbose headers   'cache-control': 'max-age=0',
+123 verbose headers   'accept-ranges': 'bytes',
+123 verbose headers   date: 'Tue, 07 Mar 2017 02:12:25 GMT',
+123 verbose headers   via: '1.1 varnish',
+123 verbose headers   connection: 'close',
+123 verbose headers   'x-served-by': 'cache-hkg6822-HKG',
+123 verbose headers   'x-cache': 'MISS',
+123 verbose headers   'x-cache-hits': '0',
+123 verbose headers   'x-timer': 'S1488852744.644547,VS0,VE800' }
+124 silly get cb [ 304,
+124 silly get   { server: 'nginx/1.10.1',
+124 silly get     'last-modified': 'Thu, 02 Mar 2017 07:20:52 GMT',
+124 silly get     etag: '"58b7c7d4-12602"',
+124 silly get     'cache-control': 'max-age=0',
+124 silly get     'accept-ranges': 'bytes',
+124 silly get     date: 'Tue, 07 Mar 2017 02:12:25 GMT',
+124 silly get     via: '1.1 varnish',
+124 silly get     connection: 'close',
+124 silly get     'x-served-by': 'cache-hkg6822-HKG',
+124 silly get     'x-cache': 'MISS',
+124 silly get     'x-cache-hits': '0',
+124 silly get     'x-timer': 'S1488852744.644547,VS0,VE800' } ]
+125 verbose etag https://registry.npmjs.org/@angular%2fplatform-browser from cache
+126 verbose get saving @angular/platform-browser to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\_40angular_252fplatform-browser\.cache.json
+127 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+128 silly resolveWithNewModule @angular/platform-browser@2.0.0-rc.5 checking installable status
+129 silly cache add args [ '@angular/platform-browser@2.0.0-rc.5', null ]
+130 verbose cache add spec @angular/platform-browser@2.0.0-rc.5
+131 silly cache add parsed spec Result {
+131 silly cache add   raw: '@angular/platform-browser@2.0.0-rc.5',
+131 silly cache add   scope: '@angular',
+131 silly cache add   escapedName: '@angular%2fplatform-browser',
+131 silly cache add   name: '@angular/platform-browser',
+131 silly cache add   rawSpec: '2.0.0-rc.5',
+131 silly cache add   spec: '2.0.0-rc.5',
+131 silly cache add   type: 'version' }
+132 silly addNamed @angular/platform-browser@2.0.0-rc.5
+133 verbose addNamed "2.0.0-rc.5" is a plain semver version for @angular/platform-browser
+134 silly mapToRegistry name @angular/platform-browser
+135 silly mapToRegistry scope (from package name) @angular
+136 verbose mapToRegistry no registry URL found in name for scope @angular
+137 silly mapToRegistry using default registry
+138 silly mapToRegistry registry https://registry.npmjs.org/
+139 silly mapToRegistry data Result {
+139 silly mapToRegistry   raw: '@angular/platform-browser',
+139 silly mapToRegistry   scope: '@angular',
+139 silly mapToRegistry   escapedName: '@angular%2fplatform-browser',
+139 silly mapToRegistry   name: '@angular/platform-browser',
+139 silly mapToRegistry   rawSpec: '',
+139 silly mapToRegistry   spec: 'latest',
+139 silly mapToRegistry   type: 'tag' }
+140 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fplatform-browser
+141 verbose addNameVersion registry:https://registry.npmjs.org/@angular%2fplatform-browser not in flight; fetching
+142 verbose get https://registry.npmjs.org/@angular%2fplatform-browser not expired, no request
+143 silly mapToRegistry name @angular/platform-browser
+144 silly mapToRegistry scope (from package name) @angular
+145 verbose mapToRegistry no registry URL found in name for scope @angular
+146 silly mapToRegistry using default registry
+147 silly mapToRegistry registry https://registry.npmjs.org/
+148 silly mapToRegistry data Result {
+148 silly mapToRegistry   raw: '@angular/platform-browser',
+148 silly mapToRegistry   scope: '@angular',
+148 silly mapToRegistry   escapedName: '@angular%2fplatform-browser',
+148 silly mapToRegistry   name: '@angular/platform-browser',
+148 silly mapToRegistry   rawSpec: '',
+148 silly mapToRegistry   spec: 'latest',
+148 silly mapToRegistry   type: 'tag' }
+149 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fplatform-browser
+150 verbose addRemoteTarball https://registry.npmjs.org/@angular/platform-browser/-/platform-browser-2.0.0-rc.5.tgz not in flight; adding
+151 verbose addRemoteTarball [ 'https://registry.npmjs.org/@angular/platform-browser/-/platform-browser-2.0.0-rc.5.tgz',
+151 verbose addRemoteTarball   '2d7ad0bd43d5e148e60f7e10e6e92e1de3aa5ce4' ]
+152 info retry fetch attempt 1 at 10:11:55
+153 info attempt registry request try #1 at 10:11:55
+154 http fetch GET https://registry.npmjs.org/@angular/platform-browser/-/platform-browser-2.0.0-rc.5.tgz
+155 http 304 https://registry.npmjs.org/@angular%2fhttp
+156 verbose headers { date: 'Tue, 07 Mar 2017 02:12:24 GMT',
+156 verbose headers   via: '1.1 varnish',
+156 verbose headers   'cache-control': 'max-age=0',
+156 verbose headers   etag: 'W/"58b7c7cf-10ef1"',
+156 verbose headers   age: '0',
+156 verbose headers   connection: 'close',
+156 verbose headers   'x-served-by': 'cache-hkg6821-HKG',
+156 verbose headers   'x-cache': 'MISS',
+156 verbose headers   'x-cache-hits': '0',
+156 verbose headers   'x-timer': 'S1488852744.633541,VS0,VE895',
+156 verbose headers   vary: 'Accept-Encoding' }
+157 silly get cb [ 304,
+157 silly get   { date: 'Tue, 07 Mar 2017 02:12:24 GMT',
+157 silly get     via: '1.1 varnish',
+157 silly get     'cache-control': 'max-age=0',
+157 silly get     etag: 'W/"58b7c7cf-10ef1"',
+157 silly get     age: '0',
+157 silly get     connection: 'close',
+157 silly get     'x-served-by': 'cache-hkg6821-HKG',
+157 silly get     'x-cache': 'MISS',
+157 silly get     'x-cache-hits': '0',
+157 silly get     'x-timer': 'S1488852744.633541,VS0,VE895',
+157 silly get     vary: 'Accept-Encoding' } ]
+158 verbose etag https://registry.npmjs.org/@angular%2fhttp from cache
+159 verbose get saving @angular/http to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\_40angular_252fhttp\.cache.json
+160 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+161 silly resolveWithNewModule @angular/http@2.0.0-rc.5 checking installable status
+162 silly cache add args [ '@angular/http@2.0.0-rc.5', null ]
+163 verbose cache add spec @angular/http@2.0.0-rc.5
+164 silly cache add parsed spec Result {
+164 silly cache add   raw: '@angular/http@2.0.0-rc.5',
+164 silly cache add   scope: '@angular',
+164 silly cache add   escapedName: '@angular%2fhttp',
+164 silly cache add   name: '@angular/http',
+164 silly cache add   rawSpec: '2.0.0-rc.5',
+164 silly cache add   spec: '2.0.0-rc.5',
+164 silly cache add   type: 'version' }
+165 silly addNamed @angular/http@2.0.0-rc.5
+166 verbose addNamed "2.0.0-rc.5" is a plain semver version for @angular/http
+167 silly mapToRegistry name @angular/http
+168 silly mapToRegistry scope (from package name) @angular
+169 verbose mapToRegistry no registry URL found in name for scope @angular
+170 silly mapToRegistry using default registry
+171 silly mapToRegistry registry https://registry.npmjs.org/
+172 silly mapToRegistry data Result {
+172 silly mapToRegistry   raw: '@angular/http',
+172 silly mapToRegistry   scope: '@angular',
+172 silly mapToRegistry   escapedName: '@angular%2fhttp',
+172 silly mapToRegistry   name: '@angular/http',
+172 silly mapToRegistry   rawSpec: '',
+172 silly mapToRegistry   spec: 'latest',
+172 silly mapToRegistry   type: 'tag' }
+173 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fhttp
+174 verbose addNameVersion registry:https://registry.npmjs.org/@angular%2fhttp not in flight; fetching
+175 http 304 https://registry.npmjs.org/@angular%2fcompiler
+176 verbose headers { date: 'Tue, 07 Mar 2017 02:12:24 GMT',
+176 verbose headers   via: '1.1 varnish',
+176 verbose headers   'cache-control': 'max-age=0',
+176 verbose headers   etag: 'W/"58b7c7c7-10acb"',
+176 verbose headers   age: '0',
+176 verbose headers   connection: 'close',
+176 verbose headers   'x-served-by': 'cache-hkg6821-HKG',
+176 verbose headers   'x-cache': 'MISS',
+176 verbose headers   'x-cache-hits': '0',
+176 verbose headers   'x-timer': 'S1488852744.640783,VS0,VE891',
+176 verbose headers   vary: 'Accept-Encoding' }
+177 silly get cb [ 304,
+177 silly get   { date: 'Tue, 07 Mar 2017 02:12:24 GMT',
+177 silly get     via: '1.1 varnish',
+177 silly get     'cache-control': 'max-age=0',
+177 silly get     etag: 'W/"58b7c7c7-10acb"',
+177 silly get     age: '0',
+177 silly get     connection: 'close',
+177 silly get     'x-served-by': 'cache-hkg6821-HKG',
+177 silly get     'x-cache': 'MISS',
+177 silly get     'x-cache-hits': '0',
+177 silly get     'x-timer': 'S1488852744.640783,VS0,VE891',
+177 silly get     vary: 'Accept-Encoding' } ]
+178 verbose etag https://registry.npmjs.org/@angular%2fcompiler from cache
+179 verbose get saving @angular/compiler to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\_40angular_252fcompiler\.cache.json
+180 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+181 http 304 https://registry.npmjs.org/@angular%2fplatform-browser-dynamic
+182 verbose headers { server: 'nginx/1.10.1',
+182 verbose headers   'last-modified': 'Thu, 02 Mar 2017 07:20:55 GMT',
+182 verbose headers   etag: '"58b7c7d7-14663"',
+182 verbose headers   'cache-control': 'max-age=0',
+182 verbose headers   'accept-ranges': 'bytes',
+182 verbose headers   date: 'Tue, 07 Mar 2017 02:12:25 GMT',
+182 verbose headers   via: '1.1 varnish',
+182 verbose headers   connection: 'close',
+182 verbose headers   'x-served-by': 'cache-hkg6825-HKG',
+182 verbose headers   'x-cache': 'MISS',
+182 verbose headers   'x-cache-hits': '0',
+182 verbose headers   'x-timer': 'S1488852744.643729,VS0,VE894' }
+183 silly get cb [ 304,
+183 silly get   { server: 'nginx/1.10.1',
+183 silly get     'last-modified': 'Thu, 02 Mar 2017 07:20:55 GMT',
+183 silly get     etag: '"58b7c7d7-14663"',
+183 silly get     'cache-control': 'max-age=0',
+183 silly get     'accept-ranges': 'bytes',
+183 silly get     date: 'Tue, 07 Mar 2017 02:12:25 GMT',
+183 silly get     via: '1.1 varnish',
+183 silly get     connection: 'close',
+183 silly get     'x-served-by': 'cache-hkg6825-HKG',
+183 silly get     'x-cache': 'MISS',
+183 silly get     'x-cache-hits': '0',
+183 silly get     'x-timer': 'S1488852744.643729,VS0,VE894' } ]
+184 verbose etag https://registry.npmjs.org/@angular%2fplatform-browser-dynamic from cache
+185 verbose get saving @angular/platform-browser-dynamic to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\_40angular_252fplatform-browser-dynamic\.cache.json
+186 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+187 verbose get https://registry.npmjs.org/@angular%2fhttp not expired, no request
+188 silly mapToRegistry name @angular/http
+189 silly mapToRegistry scope (from package name) @angular
+190 verbose mapToRegistry no registry URL found in name for scope @angular
+191 silly mapToRegistry using default registry
+192 silly mapToRegistry registry https://registry.npmjs.org/
+193 silly mapToRegistry data Result {
+193 silly mapToRegistry   raw: '@angular/http',
+193 silly mapToRegistry   scope: '@angular',
+193 silly mapToRegistry   escapedName: '@angular%2fhttp',
+193 silly mapToRegistry   name: '@angular/http',
+193 silly mapToRegistry   rawSpec: '',
+193 silly mapToRegistry   spec: 'latest',
+193 silly mapToRegistry   type: 'tag' }
+194 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fhttp
+195 verbose addRemoteTarball https://registry.npmjs.org/@angular/http/-/http-2.0.0-rc.5.tgz not in flight; adding
+196 verbose addRemoteTarball [ 'https://registry.npmjs.org/@angular/http/-/http-2.0.0-rc.5.tgz',
+196 verbose addRemoteTarball   '3c5bc0552ea385e9b7fd6f9ddb09b3d9d30b2ca7' ]
+197 info retry fetch attempt 1 at 10:11:55
+198 info attempt registry request try #1 at 10:11:55
+199 http fetch GET https://registry.npmjs.org/@angular/http/-/http-2.0.0-rc.5.tgz
+200 silly resolveWithNewModule @angular/compiler@2.0.0-rc.5 checking installable status
+201 silly cache add args [ '@angular/compiler@2.0.0-rc.5', null ]
+202 verbose cache add spec @angular/compiler@2.0.0-rc.5
+203 silly cache add parsed spec Result {
+203 silly cache add   raw: '@angular/compiler@2.0.0-rc.5',
+203 silly cache add   scope: '@angular',
+203 silly cache add   escapedName: '@angular%2fcompiler',
+203 silly cache add   name: '@angular/compiler',
+203 silly cache add   rawSpec: '2.0.0-rc.5',
+203 silly cache add   spec: '2.0.0-rc.5',
+203 silly cache add   type: 'version' }
+204 silly addNamed @angular/compiler@2.0.0-rc.5
+205 verbose addNamed "2.0.0-rc.5" is a plain semver version for @angular/compiler
+206 silly mapToRegistry name @angular/compiler
+207 silly mapToRegistry scope (from package name) @angular
+208 verbose mapToRegistry no registry URL found in name for scope @angular
+209 silly mapToRegistry using default registry
+210 silly mapToRegistry registry https://registry.npmjs.org/
+211 silly mapToRegistry data Result {
+211 silly mapToRegistry   raw: '@angular/compiler',
+211 silly mapToRegistry   scope: '@angular',
+211 silly mapToRegistry   escapedName: '@angular%2fcompiler',
+211 silly mapToRegistry   name: '@angular/compiler',
+211 silly mapToRegistry   rawSpec: '',
+211 silly mapToRegistry   spec: 'latest',
+211 silly mapToRegistry   type: 'tag' }
+212 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fcompiler
+213 verbose addNameVersion registry:https://registry.npmjs.org/@angular%2fcompiler not in flight; fetching
+214 silly resolveWithNewModule @angular/platform-browser-dynamic@2.0.0-rc.5 checking installable status
+215 silly cache add args [ '@angular/platform-browser-dynamic@2.0.0-rc.5', null ]
+216 verbose cache add spec @angular/platform-browser-dynamic@2.0.0-rc.5
+217 silly cache add parsed spec Result {
+217 silly cache add   raw: '@angular/platform-browser-dynamic@2.0.0-rc.5',
+217 silly cache add   scope: '@angular',
+217 silly cache add   escapedName: '@angular%2fplatform-browser-dynamic',
+217 silly cache add   name: '@angular/platform-browser-dynamic',
+217 silly cache add   rawSpec: '2.0.0-rc.5',
+217 silly cache add   spec: '2.0.0-rc.5',
+217 silly cache add   type: 'version' }
+218 silly addNamed @angular/platform-browser-dynamic@2.0.0-rc.5
+219 verbose addNamed "2.0.0-rc.5" is a plain semver version for @angular/platform-browser-dynamic
+220 silly mapToRegistry name @angular/platform-browser-dynamic
+221 silly mapToRegistry scope (from package name) @angular
+222 verbose mapToRegistry no registry URL found in name for scope @angular
+223 silly mapToRegistry using default registry
+224 silly mapToRegistry registry https://registry.npmjs.org/
+225 silly mapToRegistry data Result {
+225 silly mapToRegistry   raw: '@angular/platform-browser-dynamic',
+225 silly mapToRegistry   scope: '@angular',
+225 silly mapToRegistry   escapedName: '@angular%2fplatform-browser-dynamic',
+225 silly mapToRegistry   name: '@angular/platform-browser-dynamic',
+225 silly mapToRegistry   rawSpec: '',
+225 silly mapToRegistry   spec: 'latest',
+225 silly mapToRegistry   type: 'tag' }
+226 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fplatform-browser-dynamic
+227 verbose addNameVersion registry:https://registry.npmjs.org/@angular%2fplatform-browser-dynamic not in flight; fetching
+228 http 304 https://registry.npmjs.org/@angular%2fcommon
+229 verbose headers { date: 'Tue, 07 Mar 2017 02:12:24 GMT',
+229 verbose headers   via: '1.1 varnish',
+229 verbose headers   'cache-control': 'max-age=0',
+229 verbose headers   etag: 'W/"58b7c7c2-10a55"',
+229 verbose headers   age: '0',
+229 verbose headers   connection: 'close',
+229 verbose headers   'x-served-by': 'cache-hkg6824-HKG',
+229 verbose headers   'x-cache': 'MISS',
+229 verbose headers   'x-cache-hits': '0',
+229 verbose headers   'x-timer': 'S1488852744.787670,VS0,VE765',
+229 verbose headers   vary: 'Accept-Encoding' }
+230 silly get cb [ 304,
+230 silly get   { date: 'Tue, 07 Mar 2017 02:12:24 GMT',
+230 silly get     via: '1.1 varnish',
+230 silly get     'cache-control': 'max-age=0',
+230 silly get     etag: 'W/"58b7c7c2-10a55"',
+230 silly get     age: '0',
+230 silly get     connection: 'close',
+230 silly get     'x-served-by': 'cache-hkg6824-HKG',
+230 silly get     'x-cache': 'MISS',
+230 silly get     'x-cache-hits': '0',
+230 silly get     'x-timer': 'S1488852744.787670,VS0,VE765',
+230 silly get     vary: 'Accept-Encoding' } ]
+231 verbose etag https://registry.npmjs.org/@angular%2fcommon from cache
+232 verbose get saving @angular/common to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\_40angular_252fcommon\.cache.json
+233 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+234 http 304 https://registry.npmjs.org/@angular%2fcore
+235 verbose headers { date: 'Tue, 07 Mar 2017 02:12:24 GMT',
+235 verbose headers   via: '1.1 varnish',
+235 verbose headers   'cache-control': 'max-age=0',
+235 verbose headers   etag: 'W/"58bae2c0-1071f"',
+235 verbose headers   age: '0',
+235 verbose headers   connection: 'close',
+235 verbose headers   'x-served-by': 'cache-hkg6824-HKG',
+235 verbose headers   'x-cache': 'MISS',
+235 verbose headers   'x-cache-hits': '0',
+235 verbose headers   'x-timer': 'S1488852744.630584,VS0,VE925',
+235 verbose headers   vary: 'Accept-Encoding' }
+236 silly get cb [ 304,
+236 silly get   { date: 'Tue, 07 Mar 2017 02:12:24 GMT',
+236 silly get     via: '1.1 varnish',
+236 silly get     'cache-control': 'max-age=0',
+236 silly get     etag: 'W/"58bae2c0-1071f"',
+236 silly get     age: '0',
+236 silly get     connection: 'close',
+236 silly get     'x-served-by': 'cache-hkg6824-HKG',
+236 silly get     'x-cache': 'MISS',
+236 silly get     'x-cache-hits': '0',
+236 silly get     'x-timer': 'S1488852744.630584,VS0,VE925',
+236 silly get     vary: 'Accept-Encoding' } ]
+237 verbose etag https://registry.npmjs.org/@angular%2fcore from cache
+238 verbose get saving @angular/core to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\_40angular_252fcore\.cache.json
+239 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+240 verbose get https://registry.npmjs.org/@angular%2fcompiler not expired, no request
+241 silly mapToRegistry name @angular/compiler
+242 silly mapToRegistry scope (from package name) @angular
+243 verbose mapToRegistry no registry URL found in name for scope @angular
+244 silly mapToRegistry using default registry
+245 silly mapToRegistry registry https://registry.npmjs.org/
+246 silly mapToRegistry data Result {
+246 silly mapToRegistry   raw: '@angular/compiler',
+246 silly mapToRegistry   scope: '@angular',
+246 silly mapToRegistry   escapedName: '@angular%2fcompiler',
+246 silly mapToRegistry   name: '@angular/compiler',
+246 silly mapToRegistry   rawSpec: '',
+246 silly mapToRegistry   spec: 'latest',
+246 silly mapToRegistry   type: 'tag' }
+247 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fcompiler
+248 verbose addRemoteTarball https://registry.npmjs.org/@angular/compiler/-/compiler-2.0.0-rc.5.tgz not in flight; adding
+249 verbose addRemoteTarball [ 'https://registry.npmjs.org/@angular/compiler/-/compiler-2.0.0-rc.5.tgz',
+249 verbose addRemoteTarball   'f48078547d92c75d82db64a4f1a1c41a4649f6e8' ]
+250 verbose get https://registry.npmjs.org/@angular%2fplatform-browser-dynamic not expired, no request
+251 info retry fetch attempt 1 at 10:11:55
+252 info attempt registry request try #1 at 10:11:55
+253 http fetch GET https://registry.npmjs.org/@angular/compiler/-/compiler-2.0.0-rc.5.tgz
+254 silly mapToRegistry name @angular/platform-browser-dynamic
+255 silly mapToRegistry scope (from package name) @angular
+256 verbose mapToRegistry no registry URL found in name for scope @angular
+257 silly mapToRegistry using default registry
+258 silly mapToRegistry registry https://registry.npmjs.org/
+259 silly mapToRegistry data Result {
+259 silly mapToRegistry   raw: '@angular/platform-browser-dynamic',
+259 silly mapToRegistry   scope: '@angular',
+259 silly mapToRegistry   escapedName: '@angular%2fplatform-browser-dynamic',
+259 silly mapToRegistry   name: '@angular/platform-browser-dynamic',
+259 silly mapToRegistry   rawSpec: '',
+259 silly mapToRegistry   spec: 'latest',
+259 silly mapToRegistry   type: 'tag' }
+260 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fplatform-browser-dynamic
+261 verbose addRemoteTarball https://registry.npmjs.org/@angular/platform-browser-dynamic/-/platform-browser-dynamic-2.0.0-rc.5.tgz not in flight; adding
+262 verbose addRemoteTarball [ 'https://registry.npmjs.org/@angular/platform-browser-dynamic/-/platform-browser-dynamic-2.0.0-rc.5.tgz',
+262 verbose addRemoteTarball   '4a5362679a9378600a1cc012030f2bc51555f530' ]
+263 info retry fetch attempt 1 at 10:11:55
+264 info attempt registry request try #1 at 10:11:55
+265 http fetch GET https://registry.npmjs.org/@angular/platform-browser-dynamic/-/platform-browser-dynamic-2.0.0-rc.5.tgz
+266 silly resolveWithNewModule @angular/common@2.0.0-rc.5 checking installable status
+267 silly cache add args [ '@angular/common@2.0.0-rc.5', null ]
+268 verbose cache add spec @angular/common@2.0.0-rc.5
+269 silly cache add parsed spec Result {
+269 silly cache add   raw: '@angular/common@2.0.0-rc.5',
+269 silly cache add   scope: '@angular',
+269 silly cache add   escapedName: '@angular%2fcommon',
+269 silly cache add   name: '@angular/common',
+269 silly cache add   rawSpec: '2.0.0-rc.5',
+269 silly cache add   spec: '2.0.0-rc.5',
+269 silly cache add   type: 'version' }
+270 silly addNamed @angular/common@2.0.0-rc.5
+271 verbose addNamed "2.0.0-rc.5" is a plain semver version for @angular/common
+272 silly mapToRegistry name @angular/common
+273 silly mapToRegistry scope (from package name) @angular
+274 verbose mapToRegistry no registry URL found in name for scope @angular
+275 silly mapToRegistry using default registry
+276 silly mapToRegistry registry https://registry.npmjs.org/
+277 silly mapToRegistry data Result {
+277 silly mapToRegistry   raw: '@angular/common',
+277 silly mapToRegistry   scope: '@angular',
+277 silly mapToRegistry   escapedName: '@angular%2fcommon',
+277 silly mapToRegistry   name: '@angular/common',
+277 silly mapToRegistry   rawSpec: '',
+277 silly mapToRegistry   spec: 'latest',
+277 silly mapToRegistry   type: 'tag' }
+278 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fcommon
+279 verbose addNameVersion registry:https://registry.npmjs.org/@angular%2fcommon not in flight; fetching
+280 silly resolveWithNewModule @angular/core@2.0.0-rc.5 checking installable status
+281 silly cache add args [ '@angular/core@2.0.0-rc.5', null ]
+282 verbose cache add spec @angular/core@2.0.0-rc.5
+283 silly cache add parsed spec Result {
+283 silly cache add   raw: '@angular/core@2.0.0-rc.5',
+283 silly cache add   scope: '@angular',
+283 silly cache add   escapedName: '@angular%2fcore',
+283 silly cache add   name: '@angular/core',
+283 silly cache add   rawSpec: '2.0.0-rc.5',
+283 silly cache add   spec: '2.0.0-rc.5',
+283 silly cache add   type: 'version' }
+284 silly addNamed @angular/core@2.0.0-rc.5
+285 verbose addNamed "2.0.0-rc.5" is a plain semver version for @angular/core
+286 silly mapToRegistry name @angular/core
+287 silly mapToRegistry scope (from package name) @angular
+288 verbose mapToRegistry no registry URL found in name for scope @angular
+289 silly mapToRegistry using default registry
+290 silly mapToRegistry registry https://registry.npmjs.org/
+291 silly mapToRegistry data Result {
+291 silly mapToRegistry   raw: '@angular/core',
+291 silly mapToRegistry   scope: '@angular',
+291 silly mapToRegistry   escapedName: '@angular%2fcore',
+291 silly mapToRegistry   name: '@angular/core',
+291 silly mapToRegistry   rawSpec: '',
+291 silly mapToRegistry   spec: 'latest',
+291 silly mapToRegistry   type: 'tag' }
+292 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fcore
+293 verbose addNameVersion registry:https://registry.npmjs.org/@angular%2fcore not in flight; fetching
+294 verbose get https://registry.npmjs.org/@angular%2fcore not expired, no request
+295 verbose get https://registry.npmjs.org/@angular%2fcommon not expired, no request
+296 silly mapToRegistry name @angular/core
+297 silly mapToRegistry scope (from package name) @angular
+298 verbose mapToRegistry no registry URL found in name for scope @angular
+299 silly mapToRegistry using default registry
+300 silly mapToRegistry registry https://registry.npmjs.org/
+301 silly mapToRegistry data Result {
+301 silly mapToRegistry   raw: '@angular/core',
+301 silly mapToRegistry   scope: '@angular',
+301 silly mapToRegistry   escapedName: '@angular%2fcore',
+301 silly mapToRegistry   name: '@angular/core',
+301 silly mapToRegistry   rawSpec: '',
+301 silly mapToRegistry   spec: 'latest',
+301 silly mapToRegistry   type: 'tag' }
+302 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fcore
+303 verbose addRemoteTarball https://registry.npmjs.org/@angular/core/-/core-2.0.0-rc.5.tgz not in flight; adding
+304 verbose addRemoteTarball [ 'https://registry.npmjs.org/@angular/core/-/core-2.0.0-rc.5.tgz',
+304 verbose addRemoteTarball   '6f901fd1ce00e9889c0a3678445a19ac75ea0b63' ]
+305 silly mapToRegistry name @angular/common
+306 silly mapToRegistry scope (from package name) @angular
+307 verbose mapToRegistry no registry URL found in name for scope @angular
+308 silly mapToRegistry using default registry
+309 silly mapToRegistry registry https://registry.npmjs.org/
+310 silly mapToRegistry data Result {
+310 silly mapToRegistry   raw: '@angular/common',
+310 silly mapToRegistry   scope: '@angular',
+310 silly mapToRegistry   escapedName: '@angular%2fcommon',
+310 silly mapToRegistry   name: '@angular/common',
+310 silly mapToRegistry   rawSpec: '',
+310 silly mapToRegistry   spec: 'latest',
+310 silly mapToRegistry   type: 'tag' }
+311 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fcommon
+312 verbose addRemoteTarball https://registry.npmjs.org/@angular/common/-/common-2.0.0-rc.5.tgz not in flight; adding
+313 verbose addRemoteTarball [ 'https://registry.npmjs.org/@angular/common/-/common-2.0.0-rc.5.tgz',
+313 verbose addRemoteTarball   '8aabd14ca6aa288b3eece0fff86cfc256c502d48' ]
+314 info retry fetch attempt 1 at 10:11:55
+315 info attempt registry request try #1 at 10:11:55
+316 http fetch GET https://registry.npmjs.org/@angular/core/-/core-2.0.0-rc.5.tgz
+317 info retry fetch attempt 1 at 10:11:55
+318 info attempt registry request try #1 at 10:11:55
+319 http fetch GET https://registry.npmjs.org/@angular/common/-/common-2.0.0-rc.5.tgz
+320 http fetch 200 https://registry.npmjs.org/@angular/http/-/http-2.0.0-rc.5.tgz
+321 http fetch 200 https://registry.npmjs.org/@angular/common/-/common-2.0.0-rc.5.tgz
+322 http fetch 200 https://registry.npmjs.org/@angular/platform-browser-dynamic/-/platform-browser-dynamic-2.0.0-rc.5.tgz
+323 http fetch 200 https://registry.npmjs.org/@angular/compiler/-/compiler-2.0.0-rc.5.tgz
+324 http fetch 200 https://registry.npmjs.org/@angular/core/-/core-2.0.0-rc.5.tgz
+325 http fetch 200 https://registry.npmjs.org/@angular/platform-browser/-/platform-browser-2.0.0-rc.5.tgz
+326 silly fetchAndShaCheck shasum 4a5362679a9378600a1cc012030f2bc51555f530
+327 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-5220-ac976001\registry.npmjs.org\_40angular\platform-browser-dynamic\-\platform-browser-dynamic-2.0.0-rc.5.tgz not in flight; adding
+328 verbose addTmpTarball already have metadata; skipping unpack for @angular/platform-browser-dynamic@2.0.0-rc.5
+329 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+330 silly cache afterAdd @angular/platform-browser-dynamic@2.0.0-rc.5
+331 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\@angular\platform-browser-dynamic\2.0.0-rc.5\package\package.json not in flight; writing
+332 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+333 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\@angular\platform-browser-dynamic\2.0.0-rc.5\package\package.json written
+334 silly fetchAndShaCheck shasum 3c5bc0552ea385e9b7fd6f9ddb09b3d9d30b2ca7
+335 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-5220-ac976001\registry.npmjs.org\_40angular\http\-\http-2.0.0-rc.5.tgz not in flight; adding
+336 verbose addTmpTarball already have metadata; skipping unpack for @angular/http@2.0.0-rc.5
+337 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+338 silly cache afterAdd @angular/http@2.0.0-rc.5
+339 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\@angular\http\2.0.0-rc.5\package\package.json not in flight; writing
+340 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+341 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\@angular\http\2.0.0-rc.5\package\package.json written
+342 silly fetchAndShaCheck shasum 8aabd14ca6aa288b3eece0fff86cfc256c502d48
+343 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-5220-ac976001\registry.npmjs.org\_40angular\common\-\common-2.0.0-rc.5.tgz not in flight; adding
+344 verbose addTmpTarball already have metadata; skipping unpack for @angular/common@2.0.0-rc.5
+345 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+346 silly cache afterAdd @angular/common@2.0.0-rc.5
+347 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\@angular\common\2.0.0-rc.5\package\package.json not in flight; writing
+348 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+349 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\@angular\common\2.0.0-rc.5\package\package.json written
+350 silly fetchAndShaCheck shasum 2d7ad0bd43d5e148e60f7e10e6e92e1de3aa5ce4
+351 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-5220-ac976001\registry.npmjs.org\_40angular\platform-browser\-\platform-browser-2.0.0-rc.5.tgz not in flight; adding
+352 verbose addTmpTarball already have metadata; skipping unpack for @angular/platform-browser@2.0.0-rc.5
+353 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+354 silly cache afterAdd @angular/platform-browser@2.0.0-rc.5
+355 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\@angular\platform-browser\2.0.0-rc.5\package\package.json not in flight; writing
+356 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+357 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\@angular\platform-browser\2.0.0-rc.5\package\package.json written
+358 silly fetchAndShaCheck shasum 6f901fd1ce00e9889c0a3678445a19ac75ea0b63
+359 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-5220-ac976001\registry.npmjs.org\_40angular\core\-\core-2.0.0-rc.5.tgz not in flight; adding
+360 verbose addTmpTarball already have metadata; skipping unpack for @angular/core@2.0.0-rc.5
+361 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+362 silly cache afterAdd @angular/core@2.0.0-rc.5
+363 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\@angular\core\2.0.0-rc.5\package\package.json not in flight; writing
+364 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+365 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\@angular\core\2.0.0-rc.5\package\package.json written
+366 silly fetchAndShaCheck shasum f48078547d92c75d82db64a4f1a1c41a4649f6e8
+367 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-5220-ac976001\registry.npmjs.org\_40angular\compiler\-\compiler-2.0.0-rc.5.tgz not in flight; adding
+368 verbose addTmpTarball already have metadata; skipping unpack for @angular/compiler@2.0.0-rc.5
+369 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+370 silly cache afterAdd @angular/compiler@2.0.0-rc.5
+371 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\@angular\compiler\2.0.0-rc.5\package\package.json not in flight; writing
+372 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+373 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\@angular\compiler\2.0.0-rc.5\package\package.json written
+374 silly rollbackFailedOptional Starting
+375 silly rollbackFailedOptional Finishing
+376 silly runTopLevelLifecycles Finishing
+377 silly install printInstalled
+378 verbose stack Error: No compatible version found: ionic-angular@2.2.0
+378 verbose stack Valid install targets:
+378 verbose stack 2.1.0, 2.1.0-201703061537, 2.1.0-201703032024, 2.1.0-201702281739, 2.1.0-201702272319, 2.0.1, 2.0.1-201702231423, 2.0.1-201702221915, 2.0.1-201702212251, 2.0.1-201702212216, 2.0.1-201702161925, 2.0.1-201702161529, 2.0.1-201702152027, 2.0.1-201702151933, 2.0.1-201702142221, 2.0.1-201702132005, 2.0.1-201702131650, 2.0.0, 2.0.0-rc.5-201701241523, 2.0.0-rc.5-201701232249, 2.0.0-rc.5-201701231939, 2.0.0-rc.5-201701201813, 2.0.0-rc.5-201701201755, 2.0.0-rc.5-201701192302, 2.0.0-rc.5-201701182146, 2.0.0-rc.5-201701181544, 2.0.0-rc.5-201701172212, 2.0.0-rc.5-201701171605, 2.0.0-rc.5-201701131937, 2.0.0-rc.5-201701121905, 2.0.0-rc.5-201701121731, 2.0.0-rc.5-201701112208, 2.0.0-rc.4-201701101946, 2.0.0-rc.4-201701101706, 2.0.0-rc.4-201701092051, 2.0.0-rc.4-201701091604, 2.0.0-rc.4-201701091504, 2.0.0-rc.4-201701062325, 2.0.0-rc.4-201701062308, 2.0.0-rc.4-201701052314, 2.0.0-rc.4-201701051814, 2.0.0-rc.4-201701042202, 2.0.0-rc.4-201701041745, 2.0.0-rc.4-201701041523, 2.0.0-rc.4-201701032156, 2.0.0-rc.4-201612220408, 2.0.0-rc.4-201612211600, 2.0.0-rc.4-201612211452, 2.0.0-rc.4-201612210347, 2.0.0-rc.4-201612201852, 2.0.0-rc.4-201612192257, 2.0.0-rc.4-201612191922, 2.0.0-rc.4-201612161746, 2.0.0-rc.3-201612142137, 2.0.0-rc.3-201612142043, 2.0.0-rc.3-201612142021, 2.0.0-rc.3-201612122136, 2.0.0-rc.3-201612121605, 2.0.0-rc.3-201612100458, 2.0.0-rc.3-201612091647, 2.0.0-rc.3-201612091455, 2.0.0-rc.3-201612090356, 2.0.0-rc.3-201612081841, 2.0.0-rc.3-201612081738, 2.0.0-rc.3-201612081620, 2.0.0-rc.3-201612080433, 2.0.0-rc.3-201612072051, 2.0.0-rc.3-201612071734, 2.0.0-rc.3-201612062256, 2.0.0-rc.3-201612062143, 2.0.0-rc.3-201612062115, 2.0.0-rc.3-201612061717, 2.0.0-rc.3-201612061524, 2.0.0-rc.3-201612021933, 2.0.0-rc.3-201611302233, 2.0.0-rc.3-201611301645, 2.0.0-rc.3-201611282011, 2.0.0-rc.3-201611281530, 2.0.0-rc.3-201611261840, 2.0.0-rc.3-201611211919, 2.0.0-rc.3-201611211457, 2.0.0-rc.3-201611201650, 2.0.0-rc.3-201611181540, 2.0.0-rc.2-201611171718, 2.0.0-rc.2-201611162054, 2.0.0-rc.2-201611161915, 2.0.0-rc.2-201611110153, 2.0.0-rc.2-201611110146, 2.0.0-rc.2-201611102333, 2.0.0-rc.2-201611100035, 2.0.0-rc.2-201611041759, 2.0.0-rc.1-201611031834, 2.0.0-rc.1-201611021712, 2.0.0-rc.1-201610241941, 2.0.0-rc.1-201610191717, 2.0.0-rc.1-201610182222, 2.0.0-rc.0-201610131811, 2.0.0-rc.0-201610131632, 2.0.0-rc.0-201610122136, 2.0.0-rc.0-201610121811, 2.0.0-rc.0-201610121605, 2.0.0-rc.0-201610101823, 2.0.0-rc.0-201610041708, 2.0.0-rc.0-201610041700, 2.0.0-rc.6, 2.0.0-rc.5, 2.0.0-rc.4, 2.0.0-rc.3, 2.0.0-rc.2, 2.0.0-rc.1, 2.0.0-rc.0, 2.0.0-beta.9-201606271842, 2.0.0-beta.9-201606271653, 2.0.0-beta.9-201606241930, 2.0.0-beta.9-201606241800, 2.0.0-beta.9-201606221959, 2.0.0-beta.9-201606221703, 2.0.0-beta.9-201606212210, 2.0.0-beta.9-201606212121, 2.0.0-beta.8-201606151824, 2.0.0-beta.8-201606151713, 2.0.0-beta.8-201606151510, 2.0.0-beta.8-201606151439, 2.0.0-beta.8-201606142057, 2.0.0-beta.8-201606141514, 2.0.0-beta.8-201606131945, 2.0.0-beta.8-201606092350, 2.0.0-beta.8-201606092335, 2.0.0-beta.8-201606091959, 2.0.0-beta.8-201606091806, 2.0.0-beta.7-201606031813, 2.0.0-beta.7-201606021731, 2.0.0-beta.7-201606012128, 2.0.0-beta.7-201606011445, 2.0.0-beta.7-201605271904, 2.0.0-beta.7-201605271541, 2.0.0-beta.7-201605261743, 2.0.0-beta.7-201605211713, 2.0.0-beta.7-201605202104, 2.0.0-beta.7-201605202030, 2.0.0-beta.6-201605181432, 2.0.0-beta.6-201605132240, 2.0.0-beta.6-201605131639, 2.0.0-beta.6-201604261740, 2.0.0-beta.6-201604251507, 2.0.0-beta.6-201604212137, 2.0.0-beta.5-201604211454, 2.0.0-beta.5-201604211440, 2.0.0-beta.4-f23043ed, 2.0.0-beta.4-ed10e724, 2.0.0-beta.4-e8ee7380, 2.0.0-beta.4-7b783b3c, 2.0.0-beta.4-201604201930, 2.0.0-beta.4-201604192155, 2.0.0-beta.4-201604170622, 2.0.0-beta.11-201609271925, 2.0.0-beta.11-201609271911, 2.0.0-beta.11-201609271400, 2.0.0-beta.11-201609270622, 2.0.0-beta.11-201609270610, 2.0.0-beta.11-201609270601, 2.0.0-beta.11-201609270558, 2.0.0-beta.11-201609270522, 2.0.0-beta.11-201609270449, 2.0.0-beta.11-201609270443, 2.0.0-beta.11-201609270424, 2.0.0-beta.11-201609270406, 2.0.0-beta.11-201609262033, 2.0.0-beta.11-201609262014, 2.0.0-beta.11-201609260323, 2.0.0-beta.11-201609251625, 2.0.0-beta.11-201609230142, 2.0.0-beta.11-201609221912, 2.0.0-beta.11-201609211823, 2.0.0-beta.11-201609211450, 2.0.0-beta.11-201609210214, 2.0.0-beta.11-201609191348, 2.0.0-beta.11-201609161747, 2.0.0-beta.11-201609161559, 2.0.0-beta.11-201609160622, 2.0.0-beta.11-201609142013, 2.0.0-beta.11-201609132240, 2.0.0-beta.11-201609132103, 2.0.0-beta.11-201609071745, 2.0.0-beta.11-201609070233, 2.0.0-beta.11-201609061648, 2.0.0-beta.11-201609061629, 2.0.0-beta.11-201609060516, 2.0.0-beta.11-201609060443, 2.0.0-beta.11-201609060228, 2.0.0-beta.11-201609040322, 2.0.0-beta.11-201609030451, 2.0.0-beta.11-201609030447, 2.0.0-beta.11-201609030407, 2.0.0-beta.11-201609030353, 2.0.0-beta.11-201609030328, 2.0.0-beta.11-201609030252, 2.0.0-beta.11-201609022148, 2.0.0-beta.11-201609022141, 2.0.0-beta.11-201609022136, 2.0.0-beta.11-201609022128, 2.0.0-beta.11-201609011951, 2.0.0-beta.11-201609011909, 2.0.0-beta.11-201609011853, 2.0.0-beta.11-201609011838, 2.0.0-beta.11-201608232236, 2.0.0-beta.11-201608162233, 2.0.0-beta.11-201608092109, 2.0.0-beta.10-201608051404, 2.0.0-beta.10-201608041720, 2.0.0-beta.10-201608041410, 2.0.0-beta.10-201608012029, 2.0.0-beta.10-201607291454, 2.0.0-beta.10-201607151701, 2.0.0-beta.10-201607132035, 2.0.0-beta.10-201607122145, 2.0.0-beta.10-201607081753, 2.0.0-beta.10-201607071722, 2.0.0-beta.10-201606302045, 2.0.0-beta.10-201606292131, 2.0.0-beta.11, 2.0.0-beta.10, 2.0.0-beta.9, 2.0.0-beta.8, 2.0.0-beta.7, 2.0.0-beta.6, 2.0.0-beta.5, 2.0.0-beta.4, 2.0.0-beta.3, 2.0.0-beta.2, 2.0.0-beta.1, 2.0.0-beta.0, 2.0.0-201702062042, 2.0.0-201702031703, 2.0.0-201702022113, 2.0.0-201701301839, 2.0.0-201701301819, 2.0.0-201701301730, 1.3.2, 1.3.1, 1.3.1-201605270318, 1.3.1-201605121907, 1.3.0-201604252007
+378 verbose stack
+378 verbose stack     at pickVersionFromRegistryDocument (C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\lib\fetch-package-metadata.js:178:16)
+378 verbose stack     at C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\node_modules\iferr\index.js:13:50
+378 verbose stack     at C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\lib\utils\pulse-till-done.js:20:8
+378 verbose stack     at saved (C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\lib\cache\caching-client.js:174:7)
+378 verbose stack     at C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\node_modules\graceful-fs\polyfills.js:253:18
+378 verbose stack     at FSReqWrap.oncomplete (fs.js:123:15)
+379 verbose cwd C:\Users\Administrator\Desktop\slidesDemo-master
+380 error Windows_NT 10.0.14393
+381 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "i"
+382 error node v6.9.2
+383 error npm  v4.0.3
+384 error code ETARGET
+385 error notarget No compatible version found: ionic-angular@2.2.0
+385 error notarget Valid install targets:
+385 error notarget 2.1.0, 2.1.0-201703061537, 2.1.0-201703032024, 2.1.0-201702281739, 2.1.0-201702272319, 2.0.1, 2.0.1-201702231423, 2.0.1-201702221915, 2.0.1-201702212251, 2.0.1-201702212216, 2.0.1-201702161925, 2.0.1-201702161529, 2.0.1-201702152027, 2.0.1-201702151933, 2.0.1-201702142221, 2.0.1-201702132005, 2.0.1-201702131650, 2.0.0, 2.0.0-rc.5-201701241523, 2.0.0-rc.5-201701232249, 2.0.0-rc.5-201701231939, 2.0.0-rc.5-201701201813, 2.0.0-rc.5-201701201755, 2.0.0-rc.5-201701192302, 2.0.0-rc.5-201701182146, 2.0.0-rc.5-201701181544, 2.0.0-rc.5-201701172212, 2.0.0-rc.5-201701171605, 2.0.0-rc.5-201701131937, 2.0.0-rc.5-201701121905, 2.0.0-rc.5-201701121731, 2.0.0-rc.5-201701112208, 2.0.0-rc.4-201701101946, 2.0.0-rc.4-201701101706, 2.0.0-rc.4-201701092051, 2.0.0-rc.4-201701091604, 2.0.0-rc.4-201701091504, 2.0.0-rc.4-201701062325, 2.0.0-rc.4-201701062308, 2.0.0-rc.4-201701052314, 2.0.0-rc.4-201701051814, 2.0.0-rc.4-201701042202, 2.0.0-rc.4-201701041745, 2.0.0-rc.4-201701041523, 2.0.0-rc.4-201701032156, 2.0.0-rc.4-201612220408, 2.0.0-rc.4-201612211600, 2.0.0-rc.4-201612211452, 2.0.0-rc.4-201612210347, 2.0.0-rc.4-201612201852, 2.0.0-rc.4-201612192257, 2.0.0-rc.4-201612191922, 2.0.0-rc.4-201612161746, 2.0.0-rc.3-201612142137, 2.0.0-rc.3-201612142043, 2.0.0-rc.3-201612142021, 2.0.0-rc.3-201612122136, 2.0.0-rc.3-201612121605, 2.0.0-rc.3-201612100458, 2.0.0-rc.3-201612091647, 2.0.0-rc.3-201612091455, 2.0.0-rc.3-201612090356, 2.0.0-rc.3-201612081841, 2.0.0-rc.3-201612081738, 2.0.0-rc.3-201612081620, 2.0.0-rc.3-201612080433, 2.0.0-rc.3-201612072051, 2.0.0-rc.3-201612071734, 2.0.0-rc.3-201612062256, 2.0.0-rc.3-201612062143, 2.0.0-rc.3-201612062115, 2.0.0-rc.3-201612061717, 2.0.0-rc.3-201612061524, 2.0.0-rc.3-201612021933, 2.0.0-rc.3-201611302233, 2.0.0-rc.3-201611301645, 2.0.0-rc.3-201611282011, 2.0.0-rc.3-201611281530, 2.0.0-rc.3-201611261840, 2.0.0-rc.3-201611211919, 2.0.0-rc.3-201611211457, 2.0.0-rc.3-201611201650, 2.0.0-rc.3-201611181540, 2.0.0-rc.2-201611171718, 2.0.0-rc.2-201611162054, 2.0.0-rc.2-201611161915, 2.0.0-rc.2-201611110153, 2.0.0-rc.2-201611110146, 2.0.0-rc.2-201611102333, 2.0.0-rc.2-201611100035, 2.0.0-rc.2-201611041759, 2.0.0-rc.1-201611031834, 2.0.0-rc.1-201611021712, 2.0.0-rc.1-201610241941, 2.0.0-rc.1-201610191717, 2.0.0-rc.1-201610182222, 2.0.0-rc.0-201610131811, 2.0.0-rc.0-201610131632, 2.0.0-rc.0-201610122136, 2.0.0-rc.0-201610121811, 2.0.0-rc.0-201610121605, 2.0.0-rc.0-201610101823, 2.0.0-rc.0-201610041708, 2.0.0-rc.0-201610041700, 2.0.0-rc.6, 2.0.0-rc.5, 2.0.0-rc.4, 2.0.0-rc.3, 2.0.0-rc.2, 2.0.0-rc.1, 2.0.0-rc.0, 2.0.0-beta.9-201606271842, 2.0.0-beta.9-201606271653, 2.0.0-beta.9-201606241930, 2.0.0-beta.9-201606241800, 2.0.0-beta.9-201606221959, 2.0.0-beta.9-201606221703, 2.0.0-beta.9-201606212210, 2.0.0-beta.9-201606212121, 2.0.0-beta.8-201606151824, 2.0.0-beta.8-201606151713, 2.0.0-beta.8-201606151510, 2.0.0-beta.8-201606151439, 2.0.0-beta.8-201606142057, 2.0.0-beta.8-201606141514, 2.0.0-beta.8-201606131945, 2.0.0-beta.8-201606092350, 2.0.0-beta.8-201606092335, 2.0.0-beta.8-201606091959, 2.0.0-beta.8-201606091806, 2.0.0-beta.7-201606031813, 2.0.0-beta.7-201606021731, 2.0.0-beta.7-201606012128, 2.0.0-beta.7-201606011445, 2.0.0-beta.7-201605271904, 2.0.0-beta.7-201605271541, 2.0.0-beta.7-201605261743, 2.0.0-beta.7-201605211713, 2.0.0-beta.7-201605202104, 2.0.0-beta.7-201605202030, 2.0.0-beta.6-201605181432, 2.0.0-beta.6-201605132240, 2.0.0-beta.6-201605131639, 2.0.0-beta.6-201604261740, 2.0.0-beta.6-201604251507, 2.0.0-beta.6-201604212137, 2.0.0-beta.5-201604211454, 2.0.0-beta.5-201604211440, 2.0.0-beta.4-f23043ed, 2.0.0-beta.4-ed10e724, 2.0.0-beta.4-e8ee7380, 2.0.0-beta.4-7b783b3c, 2.0.0-beta.4-201604201930, 2.0.0-beta.4-201604192155, 2.0.0-beta.4-201604170622, 2.0.0-beta.11-201609271925, 2.0.0-beta.11-201609271911, 2.0.0-beta.11-201609271400, 2.0.0-beta.11-201609270622, 2.0.0-beta.11-201609270610, 2.0.0-beta.11-201609270601, 2.0.0-beta.11-201609270558, 2.0.0-beta.11-201609270522, 2.0.0-beta.11-201609270449, 2.0.0-beta.11-201609270443, 2.0.0-beta.11-201609270424, 2.0.0-beta.11-201609270406, 2.0.0-beta.11-201609262033, 2.0.0-beta.11-201609262014, 2.0.0-beta.11-201609260323, 2.0.0-beta.11-201609251625, 2.0.0-beta.11-201609230142, 2.0.0-beta.11-201609221912, 2.0.0-beta.11-201609211823, 2.0.0-beta.11-201609211450, 2.0.0-beta.11-201609210214, 2.0.0-beta.11-201609191348, 2.0.0-beta.11-201609161747, 2.0.0-beta.11-201609161559, 2.0.0-beta.11-201609160622, 2.0.0-beta.11-201609142013, 2.0.0-beta.11-201609132240, 2.0.0-beta.11-201609132103, 2.0.0-beta.11-201609071745, 2.0.0-beta.11-201609070233, 2.0.0-beta.11-201609061648, 2.0.0-beta.11-201609061629, 2.0.0-beta.11-201609060516, 2.0.0-beta.11-201609060443, 2.0.0-beta.11-201609060228, 2.0.0-beta.11-201609040322, 2.0.0-beta.11-201609030451, 2.0.0-beta.11-201609030447, 2.0.0-beta.11-201609030407, 2.0.0-beta.11-201609030353, 2.0.0-beta.11-201609030328, 2.0.0-beta.11-201609030252, 2.0.0-beta.11-201609022148, 2.0.0-beta.11-201609022141, 2.0.0-beta.11-201609022136, 2.0.0-beta.11-201609022128, 2.0.0-beta.11-201609011951, 2.0.0-beta.11-201609011909, 2.0.0-beta.11-201609011853, 2.0.0-beta.11-201609011838, 2.0.0-beta.11-201608232236, 2.0.0-beta.11-201608162233, 2.0.0-beta.11-201608092109, 2.0.0-beta.10-201608051404, 2.0.0-beta.10-201608041720, 2.0.0-beta.10-201608041410, 2.0.0-beta.10-201608012029, 2.0.0-beta.10-201607291454, 2.0.0-beta.10-201607151701, 2.0.0-beta.10-201607132035, 2.0.0-beta.10-201607122145, 2.0.0-beta.10-201607081753, 2.0.0-beta.10-201607071722, 2.0.0-beta.10-201606302045, 2.0.0-beta.10-201606292131, 2.0.0-beta.11, 2.0.0-beta.10, 2.0.0-beta.9, 2.0.0-beta.8, 2.0.0-beta.7, 2.0.0-beta.6, 2.0.0-beta.5, 2.0.0-beta.4, 2.0.0-beta.3, 2.0.0-beta.2, 2.0.0-beta.1, 2.0.0-beta.0, 2.0.0-201702062042, 2.0.0-201702031703, 2.0.0-201702022113, 2.0.0-201701301839, 2.0.0-201701301819, 2.0.0-201701301730, 1.3.2, 1.3.1, 1.3.1-201605270318, 1.3.1-201605121907, 1.3.0-201604252007
+386 error notarget This is most likely not a problem with npm itself.
+386 error notarget In most cases you or one of your dependencies are requesting
+386 error notarget a package version that doesn't exist.
+386 error notarget
+386 error notarget It was specified as a dependency of 'slidesdemo'
+387 verbose exit [ 1, true ]
